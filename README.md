@@ -48,9 +48,10 @@ Create a DOM element that looks like this for each player and append it to the `
 
 ```html
 <div class="player" data-number="(Player Number)">
-  <h3>(Player Name)</h3>
-  <img src="(Player Image)" alt="(Player Name)">
-  <em>(Player Nickname)</em>
+  <h3>
+    {player name} (<em>{player nickname}</em>)
+  </h3>
+  <img src="{player image}" alt="{player name}">
 </div>
 ```
 
