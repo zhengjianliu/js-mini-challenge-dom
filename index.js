@@ -26,8 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
     player.remove()
   }
 
-  renderPlayers()
+  
   h1header()
+  renderPlayers()
   removeplayer()
 })
 
